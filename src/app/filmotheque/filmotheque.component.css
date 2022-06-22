@@ -1,0 +1,43 @@
+main {
+  width: 85%;
+  min-width: 400px;
+  max-width: 1000px;
+  margin: auto;
+  font-family: sans-serif;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+.card {
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px darkgray;
+  border: solid 1px black;
+}
+
+.c-header {
+  height: 55%;
+  overflow: hidden;
+}
+
+.c-header img {
+  width: 100%;
+}
+
+.c-body {
+  padding: 15px;
+}
+
+
+.card.watched {
+  border-color: green;
+}

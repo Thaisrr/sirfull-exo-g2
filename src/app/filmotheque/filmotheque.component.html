@@ -1,0 +1,17 @@
+<main>
+    <h1>Awesome Filmothèque</h1>
+
+
+    <section class="grid">
+
+      <div class="card" *ngFor="let film of films" [class.watched]="film.watched">
+        <div class="c-header">
+          <img [src]="film.image" [alt]="film.title">
+        </div>
+        <div class="c-body">
+          <h2>{{film.title}}</h2>
+        </div>
+      </div>
+
+    </section>
+</main>
